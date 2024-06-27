@@ -147,10 +147,12 @@ jmespath==1.0.1 \
     --hash=sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980 \
     --hash=sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe
     # via awscli (pyproject.toml)
-packaging==24.0 \
-    --hash=sha256:2ddfb553fdf02fb784c234c7ba6ccc288296ceabec964ad2eae3777778130bc5 \
-    --hash=sha256:eb82c5e3e56209074766e6885bb04b8c38a0c015d0a30036ebe7ece34c9989e9
-    # via pyinstaller-hooks-contrib
+packaging==24.1 \
+    --hash=sha256:026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002 \
+    --hash=sha256:5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124
+    # via
+    #   pyinstaller
+    #   pyinstaller-hooks-contrib
 pefile==2023.2.7 \
     --hash=sha256:82e6114004b3d6911c77c3953e3838654b04511b8b66e8583db70c65998017dc \
     --hash=sha256:da185cd2af68c08a6cd4481f7325ed600a88f6a813bad9dea07ab3ef73d8d8d6
@@ -163,23 +165,23 @@ pycparser==2.22 \
     --hash=sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6 \
     --hash=sha256:c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc
     # via cffi
-pyinstaller==5.12.0 \
-    --hash=sha256:2f70e2d9b032e5f24a336f41affcb4624e66a84cd863ba58f6a92bd6040653bb \
-    --hash=sha256:303952c2a8ece894b655c2a0783a0bdc844282f47790707446bde3eaf355f0da \
-    --hash=sha256:3605ac72311318455907a88efb4a4b334b844659673a2a371bbaac2d8b52843a \
-    --hash=sha256:62d75bb70cdbeea1a0d55067d7201efa2f7d7c19e56c241291c03d551b531684 \
-    --hash=sha256:7eed9996c12aeee7530cbc7c57350939f46391ecf714ac176579190dbd3ec7bf \
-    --hash=sha256:92eeacd052092a0a4368f50ddecbeb6e020b5a70cdf113243fbd6bd8ee25524e \
-    --hash=sha256:96ad645347671c9fce190506c09523c02f01a503fe3ea65f79bb0cfe22a8c83e \
-    --hash=sha256:a1c2667120730604c3ad1e0739a45bb72ca4a502a91e2f5c5b220fbfbb05f0d4 \
-    --hash=sha256:b64d8a3056e6c7e4ed4d1f95e793ef401bf5b166ef00ad544b5812be0ac63b4b \
-    --hash=sha256:c3ceb6c3a34b9407ba16fb68a32f83d5fd94f21d43d9fe38d8f752feb75ca5bb \
-    --hash=sha256:d14c1c2b753af5efed96584f075a6740ea634ca55789113d325dc8c32aef50fe \
-    --hash=sha256:edcb6eb6618f3b763c11487db1d3516111d54bd5598b9470e295c1f628a95496
+pyinstaller==6.8.0 \
+    --hash=sha256:000c36b13fe4cd8d0d8c2bc855b1ddcf39867b5adf389e6b5ca45b25fa3e619d \
+    --hash=sha256:1c3060a263758cf7f0144ab4c016097b20451b2469d468763414665db1bb743d \
+    --hash=sha256:2b71509468c811968c0b5decb5bbe85b6292ea52d7b1f26313d2aabb673fa9a5 \
+    --hash=sha256:355832a3acc7de90a255ecacd4b9f9e166a547a79c8905d49f14e3a75c1acdb9 \
+    --hash=sha256:39ac424d2ee2457d2ab11a5091436e75a0cccae207d460d180aa1fcbbafdd528 \
+    --hash=sha256:3f4b6520f4423fe19bcc2fd63ab7238851ae2bdcbc98f25bc5d2f97cc62012e9 \
+    --hash=sha256:5ff6bc2784c1026f8e2f04aa3760cbed41408e108a9d4cf1dd52ee8351a3f6e1 \
+    --hash=sha256:6303c7a009f47e6a96ef65aed49f41e36ece8d079b9193ca92fe807403e5fe80 \
+    --hash=sha256:81cccfa9b16699b457f4788c5cc119b50f3cd4d0db924955f15c33f2ad27a50d \
+    --hash=sha256:d257f6645c7334cbd66f38a4fac62c3ad614cc46302b2b5d9f8cc48c563bce0e \
+    --hash=sha256:fe0af018d7d5077180e3144ada89a4da5df8d07716eb7e9482834a56dc57a4e8 \
+    --hash=sha256:ff31c5b99e05a4384bbe2071df67ec8b2b347640a375eae9b40218be2f1754c6
     # via -r requirements\portable-exe-extras.txt
-pyinstaller-hooks-contrib==2024.3 \
-    --hash=sha256:6701752d525e1f4eda1eaec2c2affc206171e15c7a4e188a152fcf3ed3308024 \
-    --hash=sha256:d18657c29267c63563a96b8fc78db6ba9ae40af6702acb2f8c871df12c75b60b
+pyinstaller-hooks-contrib==2024.7 \
+    --hash=sha256:8bf0775771fbaf96bcd2f4dfd6f7ae6c1dd1b1efe254c7e50477b3c08e7841d8 \
+    --hash=sha256:fd5f37dcf99bece184e40642af88be16a9b89613ecb958a8bd1136634fc9fac5
     # via pyinstaller
 python-dateutil==2.8.2 \
     --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86 \
@@ -236,17 +238,17 @@ six==1.16.0 \
     --hash=sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 \
     --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254
     # via python-dateutil
-urllib3==1.26.18 \
-    --hash=sha256:34b97092d7e0a3a8cf7cd10e386f401b3737364026c45e622aa02903dffe0f07 \
-    --hash=sha256:f8ecc1bba5667413457c529ab955bf8c67b45db799d159066261719e328580a0
+urllib3==1.26.19 \
+    --hash=sha256:37a0344459b199fce0e80b0d3569837ec6b6937435c5244e7fd73fa6006830f3 \
+    --hash=sha256:3e3d753a8618b86d7de333b4223005f68720bcd6a7d2bcb9fbd2229ec7c1e429
     # via awscli (pyproject.toml)
 wcwidth==0.2.13 \
     --hash=sha256:3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859 \
     --hash=sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5
     # via prompt-toolkit
-zipp==3.18.1 \
-    --hash=sha256:206f5a15f2af3dbaee80769fb7dc6f249695e940acca08dfb2a4769fe61e538b \
-    --hash=sha256:2884ed22e7d8961de1c9a05142eb69a247f120291bc0206a00a7642f09b5b715
+zipp==3.19.2 \
+    --hash=sha256:bf1dcf6450f873a13e952a29504887c89e6de7506209e5b1bcc3460135d4de19 \
+    --hash=sha256:f091755f667055f2d02b32c53771a7a6c8b47e1fdbc4b72a8b9072b3eef8015c
     # via importlib-metadata
 
 # WARNING: The following packages were not pinned, but pip requires them to be
