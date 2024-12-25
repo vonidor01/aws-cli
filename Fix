@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+   <channel>
+      <title>Amazon Location Service V2 Developer Guide Updates</title>
+      <link>https://docs.aws.amazon.com/location/latest/developerguide/</link>
+      <description>A RSS feed containing the latest updates on https://docs.aws.amazon.com/location/latest/developerguide/.</description>
+      <language>en-us</language>
+      <atom:link href="https://docs.aws.amazon.com/location/latest/developerguide/amazon-location-V2-developer-guide.rss"
+                 rel="self"
+                 type="application/rss+xml"/>
+      <lastBuildDate>Mon, 23 Dec 2024 23:00:09 GMT</lastBuildDate>
+      <item>
+         <title>Amazon Location Service releases enhanced version to general availability</title>
+         <link>https://docs.aws.amazon.com/location/latest/developerguide/doc-history.html</link>
+         <description>Amazon Location Service now offers enhanced Places, Routes, and Maps functionality, enabling developers to add advanced location capabilities into their applications more easily. These improvements introduce new capabilities and a new streamlined developer experience to support location-based use cases across industries such as healthcare, transportation &amp; logistics, and retail. For more information, see the &lt;a href="https://aws.amazon.com/about-aws/whats-new/2024/10/amazon-location-service-enhanced-places-routes-maps/" rel="noopener noreferrer" target="_blank"&gt;release&lt;/a&gt;.</description>
+         <pubDate>Thu, 31 Oct 2024 19:00:00 GMT</pubDate>
+         <guid isPermaLink="false">https://docs.aws.amazon.com/location/latest/developerguide/#Amazon_Location_Service_releases_enhanced_version_to_general_availability_2024-10-31</guid>
+      </item>
+   </channel>
+</rss>
